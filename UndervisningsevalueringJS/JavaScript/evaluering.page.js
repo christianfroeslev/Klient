@@ -17,12 +17,10 @@ $(document).ready(function () {
                 "<tr>" +
                 "<td>" + course.code + "</td>" +
                 "<td>" + course.displaytext + "</td>" +
-                "<td><div><button><a href" + "Se forelæsninger" + "<td/></div></button" +
+                "<td><div><button><a href='studentLectures.html'>" + "Se forelæsninger" + "<td/></div></button>" +
                 "</tr>");
         });
 
     });
-
-
 
 });

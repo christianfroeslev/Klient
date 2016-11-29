@@ -43,8 +43,8 @@ $(document).ready(function () {
 
     });
 
-    var currentUser = SDK.User.current();
-    $("#currentUserName").text(currentUser.firstName +  " " + currentUser.lastName);
+  //  var currentUser = SDK.User.current();
+    // $("#currentUserName").text(currentUser.firstName +  " " + currentUser.lastName);
 
     /**
      * Add a new Book

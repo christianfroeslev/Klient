@@ -2,21 +2,22 @@
 <html lang="en">
 <head>
 
+    <link rel="stylesheet" href="css/opretEvaluering.css">
 
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 
 
-<body>
+<body class="body">
 <div class="modal fade" id="newBookModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                        aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Opret en evaluering</h4>
+                <h4 class="header">Opret en evaluering</h4>
             </div>
+
+
             <div class="modal-body">
 
                 <div class="row" >
@@ -25,10 +26,12 @@
                             <textarea class="form-control" placeholder="Skriv kommentar" rows="4" cols="50" id="inputComment"></textarea>
                         </div>
                     </div>
+                    <span></span>
                     <div class="col-md-12">
                         <div class="form-group">
                             <label class="control-label" for="inputRating">Rating</label>
-                            <input class="form-control" id="inputRating" type="text">
+                            <p></p>
+                            <input class="form-control" id="inputRating" type="text" placeholder="Giv en rating fra 1-5">
                         </div>
                     </div>
 
@@ -38,15 +41,17 @@
 
 
                 </div>
-
+            <span></span>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Luk</button>
-                <button type="button" class="btn btn-success" id="createEvaluationButton">Opret evaluering</button>
+                    <button type="button" class="btn btn-success" id="createEvaluationButton">Opret evaluering</button>
             </div>
         </div>
     </div>
 </div>
-
+    <script src="lib/js/jquery-3.1.1.js"></script>
+    <script src="lib/js/bootstrap.js"></script>
+    <script src="JavaScript/sdk.js"></script>
+    <script src="JavaScript/student.page.js"></script>
 </body>
 </html>

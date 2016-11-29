@@ -32,14 +32,14 @@ var SDK = {
     },
 
     Lecture: {
-        getAll: function (cb) {
-            SDK.request({method: "GET", url: "/lecture"}, cb);
+        getLectures: function (cb) {
+            SDK.request({method: "GET", url: "/lecture/BALJO1001U_LA_E16"}, cb);
             }
         },
 
-    User: {
-        getAll: function (cb) {
-            SDK.request({method: "GET", url: "/staffs"}, cb);
+    Review: {
+        getReviews: function (cb) {
+            SDK.request({method: "GET", url: "/review/1"}, cb);
         },
         current:function () {
             return SDK.Storage.load("user");

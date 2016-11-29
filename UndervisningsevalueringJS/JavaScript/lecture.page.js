@@ -1,10 +1,7 @@
-/**
- * Created by christianfroslev on 27/11/16.
- */
 $(document).ready(function () {
 
     //Fires on page-load
-    SDK.Lecture.getAll(function(err, data){
+    SDK.Lecture.getLectures(function(err, data){
         if(err) throw err;
 
 
@@ -21,12 +18,11 @@ $(document).ready(function () {
                 "<td>" + lecture.description + "</td>" +
                 "<td>" + lecture.startDate + "</td>" +
                 "<td>" + lecture.endDate + "</td>" +
-                "<button>" + "Opret evaluering" + "<button/>" +
+                "<td><div><button><a href='studentEvalueringer.html'>" + "Se forelæsninger" + "<td/></div></button>" +
+                "<td><div><button><a href='opretEvaluering.html'>" + "Opret evaluering" + "<td/></div></button>" +
                 "</tr>");
         });
 
     });
-
-
 
 });
