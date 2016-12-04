@@ -23,45 +23,34 @@ var SDK = {
     },
 
     Course: {
-        getAll: function (cb) {
+        getCourses: function (cb) {
             SDK.request({method: "GET", url: "/course/" + SDK.Storage.load("id") }, cb);
-        },
-        create: function (data, cb) {
-            SDK.request({method: "POST", url: "/review", data: data, headers: {authorization: SDK.Storage.load("id")}}, cb);
         }
     },
 
     Lecture: {
-        getLectures: function (cb) {
-            SDK.request({method: "GET", url: "/lecture/BALJO1001U_LA_E16"}, cb);
+        getLectures: function (courseId, cb) {
+            SDK.request({
+
+                url: "/lecture/" + courseId,
+                method: "GET"
+
+            }, cb);
             }
         },
-
     Review: {
         getReviews: function (cb) {
             SDK.request({method: "GET", url: "/review/1"}, cb);
         },
-        current:function () {
-            return SDK.Storage.load("user");
+        create: function (data, cb) {
+            SDK.request({method: "POST", url: "/student/review", data: data, headers: {authorization: SDK.Storage.load("id")}}, cb);
         }
-    },
 
-    Publisher: {
-        getAll: function (cb) {
-            SDK.request({method: "GET", url: "/publishers"}, cb);
-        }
-    },
-
-    Author: {
-        getAll: function (cb) {
-            SDK.request({method: "GET", url: "/authors"}, cb);
-        }
     },
 
     logOut:function() {
         SDK.Storage.remove("id");
-        SDK.Storage.remove("userId");
-        SDK.Storage.remove("user");
+        SDK.Storage.remove("userType");
     },
 
     login: function (username, password, cb) {
@@ -87,7 +76,7 @@ var SDK = {
     },
 
     Storage: {
-        prefix: "BookStoreSDK",
+        prefix: "StoreSDK",
         persist: function (key, value) {
             window.localStorage.setItem(this.prefix + key, (typeof value === 'object') ? JSON.stringify(value) : value)
         },

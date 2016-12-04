@@ -22,6 +22,11 @@ $(document).ready(function () {
 
     });
 
+    $("#logOutButton").on("click", function(){
+        SDK.logOut();
+        window.location.href = "login.html";
+    });
+
 });/**
  * Created by christianfroslev on 29/11/16.
  */

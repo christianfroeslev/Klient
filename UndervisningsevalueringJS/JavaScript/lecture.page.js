@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     //Fires on page-load
-    SDK.Lecture.getLectures(function(err, data){
+    SDK.Lecture.getLectures("BALJO1001U_LA_E16",function(err, data){
         if(err) throw err;
 
 
@@ -18,11 +18,20 @@ $(document).ready(function () {
                 "<td>" + lecture.description + "</td>" +
                 "<td>" + lecture.startDate + "</td>" +
                 "<td>" + lecture.endDate + "</td>" +
-                "<td><div><button><a href='studentEvalueringer.html'>" + "Se forelæsninger" + "<td/></div></button>" +
-                "<td><div><button><a href='opretEvaluering.html'>" + "Opret evaluering" + "<td/></div></button>" +
+                "<td class='btn-row'> <button class='btn btn-default evaluering' data-id=" + lecture.id + ">Se evalueringer</button></td>" +
                 "</tr>");
         });
 
+    });
+
+    $("#lecturesTableBody").on("click", ".evaluering", function () {
+        var id = $(this).data("id");
+        window.location.href = "studentEvalueringer.html"
+    });
+
+    $("#logOutButton").on("click", function(){
+        SDK.logOut();
+        window.location.href = "login.html";
     });
 
 });
