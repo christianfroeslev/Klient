@@ -18,15 +18,16 @@ $(document).ready(function () {
                 "<tr>" +
                 "<td>" + course.code + "</td>" +
                 "<td>" + course.displaytext + "</td>" +
-                "<td><a role='button' data-course=" + course.displaytext + " class='btn btn-success btn-lg button'> Dine timer</a></td>" +
+                "<td><button id='seeLectures'>" +  "Dine forelæsninger" + "</button></td>" +
                 "</tr>");
+
+            $('button[id="seeLectures"]').on("click", function () {
+                SDK.Storage.persist("courseName", course.displaytext);
+                window.location.href = "studentLectures.html";
+                seeLectures.close();
+            });
         });
 
-    });
-
-    $("#coursesTableBody").on("click", ".button", function () {
-        var course = $(this).data("course");
-        window.location.href = "studentLectures.html"
     });
 
     $("#logOutButton").on("click", function(){

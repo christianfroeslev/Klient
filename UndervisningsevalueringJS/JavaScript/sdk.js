@@ -29,21 +29,20 @@ var SDK = {
     },
 
     Lecture: {
-        getLectures: function (courseId, cb) {
+        getLectures: function (cb) {
             SDK.request({
+                method: "GET",
+                url: "/lecture/" + SDK.Storage.load("courseName")}, cb)
 
-                url: "/lecture/" + courseId,
-                method: "GET"
-
-            }, cb);
             }
-        },
+            },
+
     Review: {
         getReviews: function (cb) {
-            SDK.request({method: "GET", url: "/review/1"}, cb);
+            SDK.request({method: "GET", url: "/review/" + SDK.Storage.load("lectureId")}, cb);
         },
         create: function (data, cb) {
-            SDK.request({method: "POST", url: "/student/review", data: data, headers: {authorization: SDK.Storage.load("id")}}, cb);
+            SDK.request({method: "POST", url: "/student/review", data: data }, cb);
         }
 
     },
@@ -51,6 +50,8 @@ var SDK = {
     logOut:function() {
         SDK.Storage.remove("id");
         SDK.Storage.remove("userType");
+        SDK.Storage.remove("courseName");
+        SDK.Storage.remove("lectureId");
     },
 
     login: function (username, password, cb) {
@@ -91,7 +92,7 @@ var SDK = {
         },
         remove:function (key) {
             window.localStorage.removeItem(this.prefix + key);
-        }
+            }
     }
 
 

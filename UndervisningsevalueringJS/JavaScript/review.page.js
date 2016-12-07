@@ -18,6 +18,11 @@ $(document).ready(function () {
                 "<td>" + review.comment + "</td>" +
                 "<td>" + review.rating + "</td>" +
                 "</tr>");
+
+            $('button[id="createReviewButton"]').on("click", function () {
+                window.location.href = "opretEvaluering.html";
+                seeReviews.close();
+            });
         });
 
     });
