@@ -8,20 +8,22 @@ $(document).ready(function () {
             var evaluering = {
                 comment: $("#inputComment").val(),
                 rating: $("#inputRating").val(),
-             //   userType: SDK.Storage.persist("userType"),
-             //   userId: SDK.Storage.persist("id"),
-             //   lectureId: SDK.Storage.persist("lectureId")
+                userId: SDK.Storage.load("id"),
+                lectureId: SDK.Storage.load("lectureId")
 
 
             };
 
             //Create book
-            SDK.Review.create(evaluering, function(err, data){
+            SDK.Review.create(evaluering, function(err, succes){
 
-                console.log("Evalueringen er oprettet");
+                if (succes) {
+                    window.alert("Hej");
+                }
 
-                if(err) throw err;
-
+                else if (err) {
+                    throw err;
+                }
             });
 
         });
