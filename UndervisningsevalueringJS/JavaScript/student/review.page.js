@@ -21,7 +21,7 @@ $(document).ready(function () {
 
             $('button[id="createReviewButton"]').on("click", function () {
                 window.location.href = "createReview.html";
-                seeReviews.close();
+                createReviewButton.close();
             });
         });
 

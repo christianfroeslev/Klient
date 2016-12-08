@@ -23,27 +23,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="student.page.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="studentReviews.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studentReviews.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student.page.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaScript/student/student.page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+            <state relative-caret-position="357">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/admin/admin.page.js">
+      <file leaf-file-name="teacherReviews.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/teacherReviews.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sdk.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/sdk.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -53,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sdk.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/sdk.js">
+      <file leaf-file-name="lecture.page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/student/lecture.page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="83" selection-start-line="44" selection-start-column="83" selection-end-line="44" selection-end-column="83" />
+            <state relative-caret-position="315">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,47 +93,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lecture.page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/student/lecture.page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="course.page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/admin/course.page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#51#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lecture.page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/admin/lecture.page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#51#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="review.page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/admin/review.page.js">
+        <entry file="file://$PROJECT_DIR$/JavaScript/student/review.page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
               <folding>
-                <element signature="e#0#51#0" expanded="false" />
+                <element signature="e#883#934#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -122,9 +108,21 @@
       <file leaf-file-name="course.page.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript/student/course.page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="3" />
+            <state relative-caret-position="390">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="review.page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/admin/review.page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#51#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,26 +163,27 @@
         <option value="$PROJECT_DIR$/JavaScript/lecture.page.js" />
         <option value="$PROJECT_DIR$/JavaScript/teacher/review.js" />
         <option value="$PROJECT_DIR$/JavaScript/student/course.page.js" />
-        <option value="$PROJECT_DIR$/JavaScript/student/student.page.js" />
         <option value="$PROJECT_DIR$/JavaScript/teacher/course.page.js" />
         <option value="$PROJECT_DIR$/JavaScript/teacher/lecture.page.js" />
         <option value="$PROJECT_DIR$/teacherLectures.html" />
         <option value="$PROJECT_DIR$/teacherFrontPage.html" />
         <option value="$PROJECT_DIR$/studentEvalueringer.html" />
         <option value="$PROJECT_DIR$/JavaScript/student/lecture.page.js" />
-        <option value="$PROJECT_DIR$/JavaScript/sdk.js" />
         <option value="$PROJECT_DIR$/JavaScript/teacher/teacher.page.js" />
-        <option value="$PROJECT_DIR$/teacherReviews.html" />
-        <option value="$PROJECT_DIR$/JavaScript/admin/review.page.js" />
         <option value="$PROJECT_DIR$/adminForside.html" />
         <option value="$PROJECT_DIR$/JavaScript/teacher/review.page.js" />
-        <option value="$PROJECT_DIR$/JavaScript/student/review.page.js" />
         <option value="$PROJECT_DIR$/adminLectures.html" />
         <option value="$PROJECT_DIR$/adminReviews.html" />
-        <option value="$PROJECT_DIR$/JavaScript/admin/course.page.js" />
         <option value="$PROJECT_DIR$/JavaScript/admin/admin.page.js" />
-        <option value="$PROJECT_DIR$/JavaScript/admin/lecture.page.js" />
         <option value="$PROJECT_DIR$/JavaScript/login.page.js" />
+        <option value="$PROJECT_DIR$/teacherReviews.html" />
+        <option value="$PROJECT_DIR$/JavaScript/admin/lecture.page.js" />
+        <option value="$PROJECT_DIR$/JavaScript/admin/course.page.js" />
+        <option value="$PROJECT_DIR$/JavaScript/sdk.js" />
+        <option value="$PROJECT_DIR$/JavaScript/admin/review.page.js" />
+        <option value="$PROJECT_DIR$/JavaScript/student/review.page.js" />
+        <option value="$PROJECT_DIR$/studentReviews.html" />
+        <option value="$PROJECT_DIR$/JavaScript/student/student.page.js" />
       </list>
     </option>
   </component>
@@ -432,12 +431,12 @@
       <workItem from="1481110155153" duration="2957000" />
       <workItem from="1481117909531" duration="1903000" />
       <workItem from="1481130038119" duration="1285000" />
-      <workItem from="1481193262316" duration="6751000" />
+      <workItem from="1481193262316" duration="11194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94219000" />
+    <option name="totallyTimeSpent" value="98662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -659,24 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/student/review.page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding>
-            <element signature="e#875#926#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teacherReviews.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="44" column="74" selection-start-line="44" selection-start-column="74" selection-end-line="44" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/teacherFrontPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -717,14 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/studentReviews.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adminFrontPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -749,22 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/student/course.page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/student/student.page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/admin/admin.page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -773,38 +730,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/admin/course.page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#51#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/student/lecture.page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/admin/lecture.page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+        <state relative-caret-position="357">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
           <folding>
             <element signature="e#0#51#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/admin/review.page.js">
+    <entry file="file://$PROJECT_DIR$/JavaScript/admin/course.page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="405">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding>
             <element signature="e#0#51#0" expanded="false" />
           </folding>
@@ -813,9 +752,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/sdk.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="83" selection-start-line="44" selection-start-column="83" selection-end-line="44" selection-end-column="83" />
+        <state relative-caret-position="0">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/student/course.page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/admin/review.page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -831,6 +788,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teacherReviews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/student/review.page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <element signature="e#883#934#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentReviews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/student/lecture.page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/student/student.page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding />
         </state>
       </provider>

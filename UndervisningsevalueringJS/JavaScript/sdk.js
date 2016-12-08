@@ -43,6 +43,15 @@ var SDK = {
         },
         create: function (data, cb) {
             SDK.request({method: "POST", url: "/student/review", data: data }, cb);
+        },
+        delete: function (data, cb) {
+            SDK.request({
+                data: {
+                    id: data
+                },
+                method: "DELETE",
+                url: "/admin/review/delete"}, cb);
+
         }
 
     },
@@ -52,6 +61,7 @@ var SDK = {
         SDK.Storage.remove("userType");
         SDK.Storage.remove("courseName");
         SDK.Storage.remove("lectureId");
+        SDK.Storage.remove("reviewId");
     },
 
     login: function (username, password, cb) {

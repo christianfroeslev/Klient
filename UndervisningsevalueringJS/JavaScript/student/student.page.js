@@ -19,6 +19,17 @@ $(document).ready(function () {
 
                 if (succes) {
                     window.alert("Din evaluering oprettet");
+                    window.location.href = "studentReviews.html";
+
+                    var btn = document.createElement("BUTTON");
+                    var text = document.createTextNode("Slet din evaluering");
+                    btn.appendChild(text);
+                    document.body.appendChild(btn);
+
+                    $("#reviewsTableBody").append(
+                        
+                    )
+
                 }
 
                 else if (err) {
