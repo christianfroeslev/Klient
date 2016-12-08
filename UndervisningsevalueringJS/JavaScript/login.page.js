@@ -20,7 +20,7 @@ $(document).ready(function () {
             $("#loginForm").find(".form-group").addClass("has-success");
 
             if (data.type === "admin" )
-                window.location.href = "opretEvaluering.html";
+                window.location.href = "adminFrontPage.html";
 
 
             else if (data.type === "teacher") {
@@ -28,7 +28,7 @@ $(document).ready(function () {
             }
 
             else if (data.type === "student") {
-                window.location.href = "studentForside.html";
+                window.location.href = "studentFrontPage.html";
             }
 
 

@@ -18,12 +18,8 @@
     <nav class="">
         <div class="">
             <ul class="nav navbar-nav navbar-right">
-                <li><button onclick="totalReviews()">Se samlede antal evalueringer</button></li>
                 <li><a id="logOutButton">Log ud</a></li>
-                <p id="demo"></p>
-
             </ul>
-
         </div>
     </nav>
 
@@ -37,13 +33,6 @@
         </thead>
         <tbody id="reviewsTableBody">
         </tbody>
-
-        <!-- Taget fra http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_table_rows -->
-
-        <script>function totalReviews() {
-            var x = document.getElementById("reviewsTableBody").rows.length;
-            document.getElementById("demo").innerHTML = x + " evalueringer.";
-        }</script>
     </table>
 
 
@@ -56,8 +45,8 @@
 <script src="lib/js/jquery-3.1.1.js"></script>
 <script src="lib/js/bootstrap.js"></script>
 <script src="JavaScript/sdk.js"></script>
-<script src="JavaScript/teacher/review.page.js"></script>
-<script src="JavaScript/teacher/teacher.page.js"></script>
+<script src="JavaScript/admin/review.page.js"></script>
+<script src="JavaScript/admin/admin.page.js"></script>
 
 
 

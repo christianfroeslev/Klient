@@ -1,3 +1,6 @@
+/**
+ * Created by christianfroslev on 08/12/16.
+ */
 $(document).ready(function () {
 
     //Fires on page-load
@@ -17,10 +20,10 @@ $(document).ready(function () {
                 "<tr>" +
                 "<td>" + review.comment + "</td>" +
                 "<td>" + review.rating + "</td>" +
+                "<td><button id='deleteReview'>" + "Slet evaluering" + "</button></td>" +
                 "</tr>");
 
-            $('button[id="createReviewButton"]').on("click", function () {
-                window.location.href = "createReview.html";
+            $('button[id="deleteReviewButton"]').on("click", function () {
                 seeReviews.close();
             });
         });
@@ -32,6 +35,4 @@ $(document).ready(function () {
         window.location.href = "login.html";
     });
 
-});/**
- * Created by christianfroslev on 29/11/16.
- */
+});

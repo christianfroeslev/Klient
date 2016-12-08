@@ -23,7 +23,7 @@ $(document).ready(function () {
                 "</tr>");
 
             $('button[id="createReviewButton"]').on("click", function () {
-                window.location.href = "opretEvaluering.html";
+                window.location.href = "createReview.html";
                 seeReviews.close();
             });
         });
