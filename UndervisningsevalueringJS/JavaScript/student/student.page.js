@@ -11,24 +11,17 @@ $(document).ready(function () {
                 userId: SDK.Storage.load("id"),
                 lectureId: SDK.Storage.load("lectureId")
 
-
             };
+
+
 
             //Create book
             SDK.Review.create(evaluering, function(err, succes){
 
                 if (succes) {
-                    window.alert("Din evaluering oprettet");
+                    window.alert("Din evaluering er oprettet");
                     window.location.href = "studentReviews.html";
-
-                    var btn = document.createElement("BUTTON");
-                    var text = document.createTextNode("Slet din evaluering");
-                    btn.appendChild(text);
-                    document.body.appendChild(btn);
-
-                    $("#reviewsTableBody").append(
-                        
-                    )
+                    $("#deleteReview").show();
 
                 }
 
