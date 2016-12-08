@@ -18,7 +18,7 @@ $(document).ready(function () {
             SDK.Review.create(evaluering, function(err, succes){
 
                 if (succes) {
-                    window.alert("Hej");
+                    window.alert("Din evaluering oprettet");
                 }
 
                 else if (err) {

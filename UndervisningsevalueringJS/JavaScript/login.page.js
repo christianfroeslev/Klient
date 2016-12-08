@@ -24,7 +24,7 @@ $(document).ready(function () {
 
 
             else if (data.type === "teacher") {
-               window.location.href = "teacherForside.html";
+               window.location.href = "teacherFrontPage.html";
             }
 
             else if (data.type === "student") {

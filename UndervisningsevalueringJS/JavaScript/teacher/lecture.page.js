@@ -24,7 +24,7 @@ $(document).ready(function () {
 
             $('button[id="seeReviews"]').on("click", function () {
                 SDK.Storage.persist("lectureId", lecture.id);
-                window.location.href = "studentEvalueringer.html";
+                window.location.href = "teacherReviews.html";
                 seeReviews.close();
             });
         });
