@@ -3,15 +3,14 @@
 <head>
 
     <link rel="stylesheet" href="css/opretEvaluering.css">
+    <link rel="stylesheet" href="css/tables.css">
 
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Opret evaluering</title>
 </head>
 
 
-<body>
-
-<div>
+<body class="body">
 <nav class="">
     <div class="">
         <ul class="nav navbar-nav navbar-right">
@@ -19,39 +18,26 @@
         </ul>
     </div>
 </nav>
- <div class="body">
-<div class="modal fade" id="newBookModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
+<div class="contain">
+
                 <h4 class="header">Opret en evaluering</h4>
-            </div>
-
-
-
-            <div class="modal-body">
 
                 <div class="row" >
-                    <div class="col-md-12">
                         <div class="form-group">
                             <textarea class="form-control" placeholder="Skriv kommentar" rows="4" cols="50" id="inputComment"></textarea>
                         </div>
-                    </div>
-                    <span></span>
-                    <div class="col-md-12">
-                        <div class="form-group">
+
+
                             <label class="control-label" for="inputRating">Rating</label>
                             <p></p>
                             <input class="form-control" id="inputRating" type="text" placeholder="Giv en rating fra 1-5">
-                        </div>
-                    </div>
+
                 </div>
-            <span></span>
-            </div>
-            <div class="modal-footer">
-                    <button type="button" class="btn btn-success" id="createEvaluationButton">Opret evaluering</button>
-            </div>
+
         </div>
+                <div class="modal-footer">
+    <button type="button" class="btn btn-success" id="createEvaluationButton">Opret evaluering</button>
+                </div>
     </div>
 </div>
 </div>

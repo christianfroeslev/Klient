@@ -4,40 +4,46 @@
 
     <link rel="stylesheet" href="lib/css/bootstrap.css">
     <link rel="stylesheet" href="lib/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/opretEvaluering.css">
+    <link rel="stylesheet" href="css/tables.css">
+
 
 
     <meta charset="UTF-8">
     <title>Forelæsninger</title>
 
 </head>
-<body>
+<body class="body">
+
+<nav class="">
+    <div class="">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a id="logOutButton">Log ud</a></li>
+        </ul>
+    </div>
+</nav>
+
 
 <div class="container">
 
-    <nav class="">
-        <div class="">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a id="logOutButton">Log ud</a></li>
-            </ul>
+    <div class="row">
+        <div class="col-lg-12">
+
+
+            <h3 class="header">Dine fag</h3>
+
+            <table class="table">
+                <thead class="thead">
+                <th>Kommentar</th>
+                <th>Rating</th>
+                <th>Slet evaluering</th>
+                </thead>
+                <tbody id="reviewsTableBody">
+                </tbody>
+            </table>
+
+
         </div>
-    </nav>
-
-    <div class="page-header">
-        <h3>Evalueringer</h3>
     </div>
-    <table class="table">
-        <thead>
-        <th>Kommentar</th>
-        <th>Rating</th>
-        </thead>
-        <tbody id="reviewsTableBody">
-        </tbody>
-    </table>
-
-
-</div>
-</div>
 </div>
 
 
@@ -47,7 +53,6 @@
 <script src="JavaScript/sdk.js"></script>
 <script src="JavaScript/admin/review.page.js"></script>
 <script src="JavaScript/admin/admin.page.js"></script>
-
 
 
 </body>

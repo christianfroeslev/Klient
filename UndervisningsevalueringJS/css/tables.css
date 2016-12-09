@@ -1,0 +1,45 @@
+.body {
+    background-image: url("http://templatemints.com/rttheme13/images/background_images/abstract_background7.jpg");
+}
+
+
+.table {
+
+    border-color: #0f0f0f;
+
+}
+
+#coursesTableBody {
+    border-color: #0f0f0f;
+}
+
+.thead {
+    background-color: deepskyblue;
+}
+
+.page-header {
+    font-family: "Trattatello MN";
+}
+
+#seeLectures {
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #1b6d85;
+    background-color: #9acfea;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: whitesmoke;
+
+}
+
+.header {
+    padding-bottom: 20px;
+}

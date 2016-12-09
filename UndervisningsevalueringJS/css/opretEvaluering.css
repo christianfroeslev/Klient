@@ -4,8 +4,23 @@
 
 
 .body {
-    margin: auto;
-    width: 27%;
-    padding: 10px;
+
 }
 
+#createEvaluationButton {
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: #0f0f0f;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin-top: 20%;
+    margin-left: 42%;
+    font-size: medium;
+    border-color: #2aabd2;
+}
+
+.contain {
+    margin-left: 42%;
+    border-color: #2aabd2;
+}
