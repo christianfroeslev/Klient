@@ -4,7 +4,7 @@ $(document).ready(function () {
 
 
         $("#createEvaluationButton").on("click", function(){
-            //Create JSON object
+
             var evaluering = {
                 comment: $("#inputComment").val(),
                 rating: $("#inputRating").val(),
@@ -15,7 +15,6 @@ $(document).ready(function () {
 
 
 
-            //Create book
             SDK.Review.create(evaluering, function(err, succes){
 
                 if (succes) {
@@ -38,6 +37,4 @@ $(document).ready(function () {
     });
 
 
-});/**
- * Created by christianfroslev on 10/11/16.
- */
+});

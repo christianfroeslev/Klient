@@ -6,7 +6,6 @@ var SDK = {
 
     request: function (options, cb) {
 
-        //Perform XHR
         $.ajax({
             url: SDK.serverURL + options.url,
             method: options.method,
@@ -74,12 +73,10 @@ var SDK = {
             method: "POST"
         }, function (err, data) {
 
-            //On login-error
             if (err) return cb(err);
 
             SDK.Storage.persist("id", data.id);
             SDK.Storage.persist("userType", data.type);
-          //  SDK.Storage.persist("user", data.user);
 
             cb(null, data);
 
@@ -107,13 +104,3 @@ var SDK = {
 
 
 };
-/*
-function encryptDecrypt(input) {
-    var key = ['A', 'B', 'C'];
-    var out = "";
-    for (var i = 0; i < input.length; i++) {
-        out += (String.fromCharCode(((input.charAt(i)).charCodeAt(0) ^ (key[i % key.length]).charCodeAt(0))));
-    }
-    return out;
-}
-*/

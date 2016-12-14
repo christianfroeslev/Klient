@@ -10,21 +10,26 @@
     <meta charset="UTF-8">
     <title>Login</title>
 </head>
-<body class="body">
+<body id="loginBody">
 
-<div class="container">
-    <div class="wrapper">
-        <h3 class="form-signin-heading">Welcome Back! Please Sign In</h3>
-        <hr class="colorgraph">
-        <br>
+    <h1 class="h1">Velkommen til CBS Review</h1>
+    <div class="loginBtn">
+<button href="#" data-toggle="modal" data-target="#login-modal">Log ind</button>
+    </div>
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="loginmodal-container">
+            <h1>Log ind til din bruger</h1><br>
+            <form>
+                <input id="inputEmail" type="text" name="Username" placeholder="Username">
+                <input id="inputPassword" type="password" name="Password" placeholder="Password">
+                <input id="loginButton" type="submit" name="login" class="login loginmodal-submit" value="Login">
+            </form>
 
-        <input id="inputEmail" type="text" class="form-control" name="Username" placeholder="Username"/>
-        <input id="inputPassword" type="password" class="form-control" name="Password" placeholder="Password"/>
-        <div>
-            <button id="loginButton" class="loginBtn" value="Login">Login</button>
         </div>
     </div>
 </div>
+
 <script type="text/javascript" src="lib/js/jquery-3.1.1.js"></script>
 <script type="text/javascript" src="lib/js/bootstrap.js"></script>
 <script type="text/javascript" src="JavaScript/sdk.js"></script>

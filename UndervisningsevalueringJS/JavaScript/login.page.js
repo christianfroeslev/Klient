@@ -11,12 +11,10 @@ $(document).ready(function () {
 
 
 
-            //On wrong credentials
             if(err) {
                 return $("#loginForm").find(".form-group").addClass("has-error");
             }
 
-            //Login OK!
             $("#loginForm").find(".form-group").addClass("has-success");
 
             if (data.type === "admin" )

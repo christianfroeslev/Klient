@@ -1,15 +1,9 @@
 $(document).ready(function () {
 
-    //Fires on page-load
     SDK.Course.getCourses(function(err, data){
         if(err) throw err;
 
-/*
-        var decrypted = encryptDecrypt(data);
-        decrypted = JSON.parse(decrypted);
 
-
-*/
         var $coursesTableBody = $("#coursesTableBody");
         data.forEach(function (course) {
 

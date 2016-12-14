@@ -1,15 +1,7 @@
 $(document).ready(function () {
 
-    //Fires on page-load
     SDK.Review.getReviews(function(err, data){
         if(err) throw err;
-
-
-        /*
-         var decrypted = encryptDecrypt(data);
-         decrypted = JSON.parse(decrypted);
-         */
-
 
         var $reviewsTableBody = $("#reviewsTableBody");
         data.forEach(function (review) {
@@ -32,9 +24,6 @@ $(document).ready(function () {
             }
 
 
-
-
-
             $('button[id="createReviewButton"]').on("click", function () {
                 window.location.href = "createReview.html";
                 createReviewButton.close();
@@ -42,15 +31,14 @@ $(document).ready(function () {
 
             $('button[id="deleteReviewButton"]').on("click", function () {
                 SDK.Storage.persist("reviewId", review.id);
-                var slet = confirm("Sikker på du ville slette denne evaluering?");
-                if (slet == true) {
+                var $slet = confirm("Er du sikker på du vil slette denne evaluering?");
+                if ($slet == true) {
                     SDK.Review.delete(SDK.Storage.load("reviewId"), function (err) {
-
                         if (err) throw err;
                         else {
                             window.location.href="studentReviews.html";
-
                             deleteReviewButton.close();
+
                         }
 
                     })
@@ -65,6 +53,4 @@ $(document).ready(function () {
         window.location.href = "login.html";
     });
 
-});/**
- * Created by christianfroslev on 29/11/16.
- */
+});

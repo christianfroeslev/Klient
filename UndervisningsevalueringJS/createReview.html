@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="css/opretEvaluering.css">
     <link rel="stylesheet" href="css/tables.css">
 
+
     <meta charset="UTF-8">
     <title>Opret evaluering</title>
 </head>
@@ -14,7 +15,7 @@
 <nav class="">
     <div class="">
         <ul class="nav navbar-nav navbar-right">
-            <li><a id="logOutButton">Log ud</a></li>
+            <li><a href="#" id="logOutButton">Log ud</a></li>
         </ul>
     </div>
 </nav>
@@ -27,11 +28,16 @@
                             <textarea class="form-control" placeholder="Skriv kommentar" rows="4" cols="50" id="inputComment"></textarea>
                         </div>
 
-
                             <label class="control-label" for="inputRating">Rating</label>
                             <p></p>
-                            <input class="form-control" id="inputRating" type="text" placeholder="Giv en rating fra 1-5">
 
+                    <select id="inputRating">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
                 </div>
 
         </div>

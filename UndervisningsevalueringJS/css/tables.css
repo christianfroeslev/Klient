@@ -43,3 +43,8 @@ table {
 .header {
     padding-bottom: 20px;
 }
+
+#logOutButton {
+    padding-right: 30px;
+
+}
