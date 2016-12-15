@@ -1,4 +1,4 @@
-
+// Jf. Admin/course.page.js
 $(document).ready(function () {
 
     SDK.Review.getReviews(function(err, data){

@@ -1,3 +1,4 @@
+// Jf. Admin/course.page.js
 $(document).ready(function () {
 
     SDK.Review.getReviews(function(err, data){
@@ -14,8 +15,10 @@ $(document).ready(function () {
                 "</tr>");
 
             $('button[id="deleteReviewButton"]').on("click", function () {
+
                 SDK.Storage.persist("reviewId", review.id);
                 var slet = confirm("Sikker på du ville slette denne evaluering?");
+                //Confirm - OK
                 if (slet == true) {
                     SDK.Review.delete(SDK.Storage.load("reviewId"), function (err) {
 

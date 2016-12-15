@@ -1,3 +1,4 @@
+// Jf. Admin/course.page.js
 $(document).ready(function () {
 
     SDK.Course.getCourses(function(err, data){

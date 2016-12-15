@@ -1,3 +1,4 @@
+// Jf. Admin/course.page.js
 $(document).ready(function () {
 
     SDK.Lecture.getLectures(function (err, data) {

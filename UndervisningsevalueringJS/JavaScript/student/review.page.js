@@ -1,3 +1,4 @@
+// Jf. Admin/course.page.js
 $(document).ready(function () {
 
     SDK.Review.getReviews(function(err, data){
@@ -23,15 +24,17 @@ $(document).ready(function () {
                     "</tr>");
             }
 
-
+            //On click window location
             $('button[id="createReviewButton"]').on("click", function () {
                 window.location.href = "createReview.html";
                 createReviewButton.close();
             });
 
+
             $('button[id="deleteReviewButton"]').on("click", function () {
                 SDK.Storage.persist("reviewId", review.id);
                 var $slet = confirm("Er du sikker på du vil slette denne evaluering?");
+                //Confirm - OK
                 if ($slet == true) {
                     SDK.Review.delete(SDK.Storage.load("reviewId"), function (err) {
                         if (err) throw err;

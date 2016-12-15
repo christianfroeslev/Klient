@@ -5,6 +5,7 @@ $(document).ready(function () {
 
         $("#createEvaluationButton").on("click", function(){
 
+            //Opret Json objekt On click
             var evaluering = {
                 comment: $("#inputComment").val(),
                 rating: $("#inputRating").val(),
